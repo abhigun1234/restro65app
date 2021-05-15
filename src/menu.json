@@ -1,0 +1,72 @@
+[{
+
+    "id":1,
+    "name":"chicke fry",
+    "price":"125",
+    "description":"chicke fry",
+    "img":"https://static.toiimg.com/thumb/53595368.cms?width=1200&height=900"
+},{
+
+    "id":2,
+    "name":"chicken tandoori",
+    "price":"125",
+    "description":"chicke tandoori",
+    "img":"https://www.licious.in/blog/wp-content/uploads/2020/12/Tandoori-Chicken.jpg"
+},
+
+{
+
+    "id":3,
+    "name":"chicken alafoo",
+    "price":"125",
+    "description":"chicke alafoo",
+    "img":"https://www.licious.in/blog/wp-content/uploads/2020/12/Tandoori-Chicken.jpg"
+},
+{
+
+    "id":1,
+    "name":"chicke fry",
+    "price":"125",
+    "description":"chicke fry",
+    "img":"https://static.toiimg.com/thumb/53595368.cms?width=1200&height=900"
+},{
+
+    "id":2,
+    "name":"chicken tandoori",
+    "price":"125",
+    "description":"chicke tandoori",
+    "img":"https://www.licious.in/blog/wp-content/uploads/2020/12/Tandoori-Chicken.jpg"
+},
+
+{
+
+    "id":3,
+    "name":"chicken alafoo",
+    "price":"125",
+    "description":"chicke alafoo",
+    "img":"https://www.licious.in/blog/wp-content/uploads/2020/12/Tandoori-Chicken.jpg"
+},
+{
+
+    "id":1,
+    "name":"chicke fry",
+    "price":"125",
+    "description":"chicke fry",
+    "img":"https://static.toiimg.com/thumb/53595368.cms?width=1200&height=900"
+},{
+
+    "id":2,
+    "name":"chicken tandoori",
+    "price":"125",
+    "description":"chicke tandoori",
+    "img":"https://www.licious.in/blog/wp-content/uploads/2020/12/Tandoori-Chicken.jpg"
+},
+
+{
+
+    "id":3,
+    "name":"chicken alafoo",
+    "price":"125",
+    "description":"chicke alafoo",
+    "img":"https://www.licious.in/blog/wp-content/uploads/2020/12/Tandoori-Chicken.jpg"
+}]

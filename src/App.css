@@ -1,10 +1,42 @@
 .App {
   text-align: center;
+  background-image: url('https://lh3.googleusercontent.com/932TpnF_lbTq1BLVAUufxPkm46aFnnnV2kC9QhrFCUOBimhBdqIkwNOy9H8QFKWd97eR1x6klyE0Q6qzDGCs1O1_ddk=w1000');
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: currentColor;
 }
+.menu-item{
+  height:120vh;
+  background-color: currentColor;
+  position: relative;
+}
+.img-menu{
 
+  height: 200px;
+    width: 287px;
+}
+.card-name{
+     display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    padding: 3rem;
+    /* float: left; */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.menu-item{
+  overflow: auto;
+}
+.list-item{
+  display: flex;
+  flex-direction: row;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +67,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+span{
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 5px;
+
 }
