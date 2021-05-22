@@ -7,9 +7,11 @@ import { Navbar, Nav } from "react-bootstrap"
 import RestaurentHome from './component/RestaurentHome'
 import MenuForm from './component/MenuForm';
 import Login from './Login';
+import AddToCart from './component/AddToCart';
 function App() {
   return (
     <div className="App">
+      <AddToCart></AddToCart>
       <Router>
         <Navbar bg="light" expand="lg">
           <Navbar.Brand href="#home">My Restro</Navbar.Brand>
