@@ -12,7 +12,8 @@ import Register from './component/Register';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <MenuForm></MenuForm>
+      {/* <Router>
         <Navbar bg="light" expand="lg">
           <Navbar.Brand href="#home">My Restro</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -42,7 +43,7 @@ function App() {
         <Route  path='/register'>
           <Register />
         </Route>
-      </Router>
+      </Router> */}
       
     </div>
   );

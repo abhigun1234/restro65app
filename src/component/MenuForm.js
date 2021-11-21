@@ -27,7 +27,7 @@ class MenuForm extends Component {
                     'Authorization': 'JWT fefege...'
                   }
                   
-                axios.post('http://192.168.1.104:8080/add_menu/',this.state,{headers:headers}).then(response=>{
+                axios.post('https://justolearnapp.herokuapp.com/api/addproduct/',this.state,{headers:headers}).then(response=>{
                     console.log("response",response)
                 }).catch(error=>{
 

@@ -75,3 +75,8 @@ span{
   margin: 5px;
 
 }
+.img-hyd{
+
+  max-width: 200px;
+  max-height: 120px;
+}
