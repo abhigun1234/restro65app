@@ -11,10 +11,11 @@ class RestaurentList extends Component {
     }
   }
   componentDidMount() {
-    axios.get('http://192.168.1.109:8080/getMenuDetails').then(response => {
-      console.log("response", response.data)
-      this.setState({ restaurentData: response.data.menuDetails })
+    axios.get('https://justolearnapp.herokuapp.com/api/addproduct').then(response => {
+      // console.log("response", response)
+      this.setState({ restaurentData: response.data.result })
       //    this.data=response.data.menuDetails
+      console.log("data",this.state.restaurentData)
     })
   }
   render() {
@@ -24,13 +25,16 @@ class RestaurentList extends Component {
 
         {/* { Menu.map(menu=>{return(<h2>{menu.name}</h2>)})} */}
         <div className="card-name">
-          {Menu.map(menu => {
+          {this.state.restaurentData.map(product => {
             return (<Card style={{ width: '18rem' }}>
-              <Card.Img className="img-menu" variant="top" src={menu.img} />
+              {/* <Card.Img className="img-menu" variant="top" src={menu.img} /> */}
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
-                  {menu.name}
+                  {product.name}
+                </Card.Text>
+                <Card.Text>
+                  {product.price}
                 </Card.Text>
                 <Button variant="primary">Add To Cart</Button>
               </Card.Body>

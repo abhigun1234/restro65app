@@ -12,7 +12,7 @@ import Register from './component/Register';
 function App() {
   return (
     <div className="App">
-      <MenuForm></MenuForm>
+      <RestaurentList></RestaurentList>
       {/* <Router>
         <Navbar bg="light" expand="lg">
           <Navbar.Brand href="#home">My Restro</Navbar.Brand>
